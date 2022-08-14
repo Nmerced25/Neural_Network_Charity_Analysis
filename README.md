@@ -33,21 +33,21 @@
    
    -Remeoved an additional feature, the "USE_CASE" coloumn, however it resulted in a lower accuracy model of 63%.
 
-    ![image](https://user-images.githubusercontent.com/101299252/184558365-696342d2-a46b-47ef-b3b5-d38e769adf25.png)
+![image](https://user-images.githubusercontent.com/101299252/184558365-696342d2-a46b-47ef-b3b5-d38e769adf25.png)
 
-    ![image](https://user-images.githubusercontent.com/101299252/184558357-6341a071-95e7-470f-b8fb-ab9fc55655a0.png)
+![image](https://user-images.githubusercontent.com/101299252/184558357-6341a071-95e7-470f-b8fb-ab9fc55655a0.png)
   
    - Added additional neurons to the hidden layers while also adding hidden layers. This lowered the accuracy of 53%.
     
-    ![image](https://user-images.githubusercontent.com/101299252/184558451-fad4e22d-293e-4f98-bc90-d695aab3df30.png)
+![image](https://user-images.githubusercontent.com/101299252/184558451-fad4e22d-293e-4f98-bc90-d695aab3df30.png)
 
-    ![image](https://user-images.githubusercontent.com/101299252/184558456-5bb1ecf8-4dab-44bd-8aba-2c378ae39228.png)
+![image](https://user-images.githubusercontent.com/101299252/184558456-5bb1ecf8-4dab-44bd-8aba-2c378ae39228.png)
 
    -Changing activation function of output layer from "sigmoid" to "tanh". This brought the model down again to 50%
     
-    ![image](https://user-images.githubusercontent.com/101299252/184558499-64931d3c-9d73-4383-a3e9-4d240242e70a.png)
+![image](https://user-images.githubusercontent.com/101299252/184558499-64931d3c-9d73-4383-a3e9-4d240242e70a.png)
 
-   ![image](https://user-images.githubusercontent.com/101299252/184558507-1c89f9b8-e873-4448-a50a-2777af0593ea.png)
+![image](https://user-images.githubusercontent.com/101299252/184558507-1c89f9b8-e873-4448-a50a-2777af0593ea.png)
 
   # Summary
   
