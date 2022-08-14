@@ -6,16 +6,16 @@
     the applicants that were to be funded by the Alphabet Soup charity would be successful. The dataset that was used contains various measures on 34,000
     orginizations that have been fully funded by the Alphabet Soup Charity. Furthermore, this project was comprised of the following steps:
       
-       -Processing the data for a Neural Network
-       -Compilie, Train and Evaluate the Model
-       -Optimizing the Model
+    -Processing the data for a Neural Network
+    -Compilie, Train and Evaluate the Model
+     -Optimizing the Model
         
  # Results
  
  Data Preprocessing
-      -The IS_SUCESSFUL Coloumn was used as a target for my model
-      -All the coloumns except IS_SUCCESSFUL were considered features and were ultimately the ones that I dropped
-      -Variables that were neither targets or features and ended up being dropped were: EIN and NAME because they had little to no impact with reguards to the
+    -The IS_SUCESSFUL Coloumn was used as a target for my model
+    -All the coloumns except IS_SUCCESSFUL were considered features and were ultimately the ones that I dropped
+    -Variables that were neither targets or features and ended up being dropped were: EIN and NAME because they had little to no impact with reguards to the
       outcome.
       
   Compiling, Training and Evaluating the Model
@@ -23,13 +23,13 @@
    -For my neural network there were 2 hidden layers. My first layer had 80 neurons, the second has 30 there is also an output layer. The first and second hidden layer
     have the "relu" activation function and the activation function for the output layer is "sigmoid."
     
-    ![image](https://user-images.githubusercontent.com/101299252/184558252-a3ee54d3-b0b5-4c96-893b-d0d02dd41015.png)
+ ![image](https://user-images.githubusercontent.com/101299252/184558252-a3ee54d3-b0b5-4c96-893b-d0d02dd41015.png)
 
    -The model was not able to reach the target of 75% due to an accuracy of 69%.
     
-   ![image](https://user-images.githubusercontent.com/101299252/184558301-8145d0ca-0b41-4665-a092-a81cde3087f7.png)
+![image](https://user-images.githubusercontent.com/101299252/184558301-8145d0ca-0b41-4665-a092-a81cde3087f7.png)
 
-  Steps taken to improve model preformance
+ Steps taken to improve model preformance
    
    -Remeoved an additional feature, the "USE_CASE" coloumn, however it resulted in a lower accuracy model of 63%.
 
